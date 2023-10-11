@@ -9,11 +9,13 @@ elif b=="+" :
     print(a + c)
 elif b=="-" :
     print(a - c)
-elif b=="/" :
+elif b == "/" and c != 0:
     print(a / c)
+elif b=="/" and c ==0:
+    print("Э на ноль нельзя делить")
 else:
     print('invalid syntax')
-
+input()
 
 
 
